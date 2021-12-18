@@ -1,0 +1,18 @@
+.countries {
+   margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+    height: 140px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    text-align: center;
+    grid-template-columns: 55%;
+}
+
+
+.countries:hover {
+    transform: scale(1.1)
+}

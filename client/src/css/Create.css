@@ -1,0 +1,51 @@
+.create {
+    background-image: url("https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2020/09/deportes-extremos-en-canada-00.jpg");
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.volver {
+    background-color: white;
+}
+
+.actitle {
+    color: rgb(27, 25, 167);
+    font-style:italic;
+}
+
+.volver {
+    width: 35px;
+    margin-left: 350px;
+    margin-top: 15px;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.label {
+color: rgb(27, 25, 167);
+font: oblique bold 120% cursive;
+}
+
+.checkbox {
+    font: oblique bold 120% cursive;
+    color: rgb(27, 25, 167);
+}
+
+.crea{
+    border-style:initial;
+    border-radius: 10px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);;
+    color: white;
+    height: 19px;
+}
+
+.crea:hover {
+    transform: scale(1.1)
+}

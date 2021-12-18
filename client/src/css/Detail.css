@@ -1,0 +1,26 @@
+.all {
+    background-image: url("https://www.wallpaperflare.com/static/813/754/390/sky-stars-landscape-night-wallpaper.jpg");
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+
+    text-align: center;
+    color: white;
+}
+
+.back {
+    width: 35px;
+    margin-top: 15px;
+    background-color: #8d5185;
+background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.back:hover {
+    transform: scale(1.3)
+}

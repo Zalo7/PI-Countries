@@ -1,0 +1,44 @@
+.principal {
+    background-image: url("https://sc04.alicdn.com/kf/H4b85a0f7e6894d9caa0f9ebb6be12b74q.jpg");
+    text-align: center;
+    
+}
+
+.title {
+  text-align:center;
+   font-size:50px;
+    text-transform:uppercase;
+     color:#222;
+      letter-spacing:1px;
+
+  font-family:"Playfair Display",
+   serif; font-weight:400;
+}
+
+.ordenar {
+    width: 170px;
+    height: 19px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.flecha {
+    width: 140px;
+    height: 19px;
+    border-radius: 5px;
+    background-color: black;
+    color:white
+}
+
+.reload {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-style:inset;
+}
+
+.reload:hover {
+    background-color: white;
+    color: black;
+}

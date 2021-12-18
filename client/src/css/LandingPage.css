@@ -1,0 +1,36 @@
+.landing {
+    background: url('../images/Screenshot_82.png');
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.div {
+    margin-top: -178px;
+}
+
+.button {
+    margin:auto;
+    display:block;
+    border-style: dashed;
+    background-color: black;
+    color: white;
+    width: 36%;
+    height: 60px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 18%;
+    color: rgba(255, 255, 255, 0.87);
+    font-style:italic;
+    margin-top: 20%;
+}
+
+.button:hover {
+    transform: scale(1.1)
+}
